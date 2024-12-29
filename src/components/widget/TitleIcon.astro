@@ -1,0 +1,40 @@
+---
+import { Icon } from 'astro-icon/components'
+import { Image } from 'astro:assets'
+interface Props {
+  light: string,
+  dark: string,
+}
+const { light, dark } = Astro.props
+---
+
+{(()=>{
+
+const getIcon = (text:string,defaultColor:string) => {
+  if (text.startsWith("mdi:")||text.startsWith("simple-icons:")) {
+    let [ name, color ] = text.split(',')
+    color = color ? color : defaultColor
+    return <Icon class="wfull hfull" name={name} style={color?`fill:${color};color:${color};`:''}/>
+  }
+  else if (text.startsWith("asset:")) {
+    let [ path, color ] = text.slice("asset:".length).split(',')
+    color = color ? color : defaultColor
+    return <Icon class="wfull hfull" name={path} style={color?`fill:${color};color:${color};`:''}/>
+  }
+  else if (text.startsWith("http:")||text.startsWith("https://")) {
+    const src = text
+    return <Image class="wfull hfull" src={src} inferSize={true} alt=""/>
+  } else {
+    const src = text
+    return <img class="wfull hfull" src={src}></img>
+  }
+}
+
+return (
+<span class="post-title-icon inline-block w-full h-full">
+  <span class="dark:hidden">{getIcon(light,'#4c4948')}</span>
+  <span class="light:hidden">{getIcon(dark,'#c9c9d7')}</span>
+</span>
+)
+
+})()}

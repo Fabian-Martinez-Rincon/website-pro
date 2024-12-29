@@ -1,0 +1,14 @@
+---
+layout: '@/layouts/PageLayout.astro'
+asideCards: 
+  - CardRecentPost
+  - CardCategroies
+  - CardTagCloud
+title: '归档'
+titleIcon: 'mdi:archive'
+---
+
+import PostListSimple from '@/components/PostListSimple.astro'
+import posts from '@/content/posts'
+
+<PostListSimple posts={posts}/>

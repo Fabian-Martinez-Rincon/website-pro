@@ -1,0 +1,26 @@
+.remark-directive-widgets {
+  .note {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    border-left-width: 5px;
+    padding: 0 1em;
+    margin: 1em 0;
+    &.info {
+      border-color: #428bca;
+    }
+    &.success {
+      border-color: #3bcb5f;
+    }
+  }
+  
+  .btn {
+    border: 1px solid #777;
+    border-radius: 2px;
+    padding: 0 0.8em;
+    &:hover {
+      color: #fff;
+      background: #777;
+    }
+    transition: .3s;
+  }
+}
