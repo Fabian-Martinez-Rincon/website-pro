@@ -22,7 +22,7 @@ export const ensureTitleIcon = (titleIcon?:string) => {
 }
 
 export const ensurePostImage = (postImage?: string) => {
-  if (!postImage) postImage = DEFAULT_FRONTMATTER.image; // Usa un valor predeterminado si no se especifica
+  if (!postImage) postImage = DEFAULT_FRONTMATTER.imageBanner; // Usa un valor predeterminado si no se especifica
   let [lightImage, darkImage = lightImage] = postImage?.split('|'); // Separa versiones para modo claro/oscuro
   return { light: lightImage, dark: darkImage };
 };

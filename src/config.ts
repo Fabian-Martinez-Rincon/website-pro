@@ -1,22 +1,22 @@
 const FAVICON = '/favicon.svg'
 const BASE_URL = 'https://antares.coderxi.com'
 const SITE_INFO = {
-  title: 'Antares',
-  author: '汐涌及岸',
-  language: 'zh-CN',
+  title: 'Fabian Martinez Rincon',
+  author: 'Data Engineer',
+  language: 'es-ES',
   description: 'A blog template based on Astro',
   startYear: 2024,
   endYear: new Date().getFullYear(),
-  email: 'coderxi@qq.com',
+  email: 'fabianmartinezrincon.123@gmail.com',
   baseUrl: BASE_URL + '/',
   avatarUrl: BASE_URL + '/favicon.svg',
   siteshotUrl: BASE_URL + '/siteshot.png',
 }
-const POST_PGAE_SIZE = 5
+const POST_PGAE_SIZE = 10
 const DEFAULT_FRONTMATTER = {
   titleIcon: 'asset:feather,#4c4948|asset:feather,#c9c9d7',
   titleColor: '#4c4948|#c9c9d7',
-  image: 'https://static.nationalgeographic.es/files/styles/image_3200/public/01-lion-populations-nationalgeographic_1777804.jpg?w=1900&h=1267',
+  imageBanner: 'https://static.nationalgeographic.es/files/styles/image_3200/public/01-lion-populations-nationalgeographic_1777804.jpg?w=1900&h=1267',
   description: '暂无描述.',
   categories: ['未分类'],
   encrypt: {
@@ -25,17 +25,17 @@ const DEFAULT_FRONTMATTER = {
   }
 }
 const SIDEBAR_SETTINGS = {
-  name: "Antares",
+  name: "Fabian Martinez Rincon",
   avatar: '/favicon.svg',
 }
 const ASIDE_CARDS = {
   info: {
-    name: "Antares",
+    name: "Fabian Martinez Rincon",
     link: '/',
-    avatar: '/favicon.svg',
+    avatar: 'https://rincondelfabo.vercel.app/fabian.jpg',
     descriptionLines: [
-      "This is the Antares theme",
-      "A blog template based on Astro",
+      "Data Engineer",
+      "Python Developer",
     ]
   }
 }
@@ -47,34 +47,34 @@ const NAV_ITEMS = [
     children: [
       {
         icon: "mdi:archive",
-        text: "归档",
+        text: "Archivados",
         href: "/archives",
       },
       {
         icon: "mdi:folder-open",
-        text: "分类",
+        text: "Blogs",
         href: "/categories"
       },
       {
         icon: "mdi:tag-multiple",
-        text: "标签",
+        text: "Tags",
         href: "/tags"
       },
     ]
   },
   {
     icon: "mdi:account-multiple",
-    text: "友链",
+    text: "Proyectos",
     href: "/links"
   },
   {
     icon: "mdi:account-box",
-    text: "我的",
+    text: "Sobre mi",
     href: "/about",
     children: [
       {
         icon: "mdi:account",
-        text: "关于我",
+        text: "Sobre mi",
         href: "/about"
       }
     ]

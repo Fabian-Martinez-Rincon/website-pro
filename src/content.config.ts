@@ -7,6 +7,7 @@ const posts = defineCollection({
   schema: z.object({
     title: z.string(),
     titleIcon: z.string().default(d.titleIcon),
+    imageBanner: z.string().default(d.imageBanner),
     titleColor: z.string().default(d.titleColor),
     publishDate: z.coerce.date().optional(),
     updatedDate: z.coerce.date().optional(),
