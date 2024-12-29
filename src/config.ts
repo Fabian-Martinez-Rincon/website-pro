@@ -16,6 +16,7 @@ const POST_PGAE_SIZE = 5
 const DEFAULT_FRONTMATTER = {
   titleIcon: 'asset:feather,#4c4948|asset:feather,#c9c9d7',
   titleColor: '#4c4948|#c9c9d7',
+  image: 'https://static.nationalgeographic.es/files/styles/image_3200/public/01-lion-populations-nationalgeographic_1777804.jpg?w=1900&h=1267',
   description: '暂无描述.',
   categories: ['未分类'],
   encrypt: {

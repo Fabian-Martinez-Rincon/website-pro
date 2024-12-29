@@ -10,6 +10,21 @@ interface Props {
   siteshot?: string,
 }
 const { type, name, link, avatar, descr, siteshot } = Astro.props
+
+const colorMap = {
+  VsCode: 'bg-blue-950',
+  Insomnia: 'bg-purple-950',
+  PostgreSQL: 'bg-indigo-950',
+  'Studio 3T': 'bg-green-950',
+  MongoDB: 'bg-emerald-950',
+  Notion: 'bg-gray-950',
+  Git: 'bg-orange-950',
+  Python: 'bg-yellow-950',
+  Linux: 'bg-white-950',
+  HTML: 'bg-orange-950',
+}
+
+const bgClass = colorMap[name] || 'bg-gray-200';
 ---
 
 <If condition={type==='primary'}>
@@ -48,18 +63,16 @@ const { type, name, link, avatar, descr, siteshot } = Astro.props
   </div>
 </If>
 
-<If condition={type==='simple'}>
-  <div class="card inline-flex w60 flex-col py2 px4 b b-#ccc dark:b-#444  hover:b-gradientBlue-middle overflow-hidden">
+<If condition={type === 'simple'}>
+  <div class={`card inline-flex w40 flex-col py1 px2 b b-#ccc dark:b-#444 hover:b-gradientBlue-middle overflow-hidden ${bgClass}`}>
     <a target="_blank" class="flex" href={link}>
-      <img class="w10 h10 m-auto rounded-5 bg-global b b-#ccc dark:b-#444" alt={name} src={avatar}>
-      <div class="flex-1 ml2 wfull overflow-hidden">
-        <div class="truncate text-sm flex-1">{name}</div>
-        <div class="truncate text-xs text-#777 dark:text-#aaa">{descr}</div>
+      <img class="w8 h8 m-auto rounded-3 bg-global b b-#ccc dark:b-#444" alt={name} src={avatar}>
+      <div class="flex-1 ml1 wfull overflow-hidden">
+        <div class="truncate text-xs flex-1">{name}</div>
       </div>
     </a>
   </div>
 </If>
-
 
 
 

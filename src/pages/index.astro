@@ -10,11 +10,11 @@ const pnCurr = 1, pnLast = Math.ceil(posts_all.length * 1.0 / pageSize)
 
 <BaseLayout asideCards={[
   'CardInfo',
-  ['CardMarkdown', { title: 'Hi there! 👋', content:'- This is the Antares theme  \nA blog template based on Astro'}],
+  ['CardMarkdown', { title: 'Data Engineer', content:'Aca reuno todos los blogs, proyectos y eventos'}],
   'CardCategroies',
   'CardTagCloud'
 ]}>
-  <div class="space-y-5">
+  <div class="space-y-1">
     {posts.map((post) => (
       <PostCard {post}/>
     ))}

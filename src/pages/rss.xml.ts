@@ -15,6 +15,7 @@ export const GET = async (context: APIContext) => {
         pubDate: post.data.publishDate,
         description: post.data.description,
         categories: post.data.categories,
+        image: post.data.image,
         author: SITE_INFO.author,
         link: `/posts/${post.id}/`,
         content: await markdown2html(post.body!) + post.data.bodyJoinHtml,

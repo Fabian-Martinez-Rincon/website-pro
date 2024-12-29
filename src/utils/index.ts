@@ -20,3 +20,9 @@ export const ensureTitleIcon = (titleIcon?:string) => {
   let [ lightIcon, darkIcon = lightIcon ] = titleIcon?.split('|')
   return { light: lightIcon, dark: darkIcon }
 }
+
+export const ensurePostImage = (postImage?: string) => {
+  if (!postImage) postImage = DEFAULT_FRONTMATTER.image; // Usa un valor predeterminado si no se especifica
+  let [lightImage, darkImage = lightImage] = postImage?.split('|'); // Separa versiones para modo claro/oscuro
+  return { light: lightImage, dark: darkImage };
+};

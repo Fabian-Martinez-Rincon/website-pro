@@ -26,7 +26,7 @@ const { posts } = Astro.props;
 ---
 
 
-<PageLayout title={`分类 - ${category.split('/').at(-1)}`} asideCards={['CardRecentPost','CardCategroies','CardTagCloud']}>
+<PageLayout title={`Blogs - ${category.split('/').at(-1)}`} asideCards={['CardRecentPost','CardCategroies','CardTagCloud']}>
 
   <PostListSimple posts={posts}/>
 
