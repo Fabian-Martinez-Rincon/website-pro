@@ -3,6 +3,8 @@ title: Parciales Objetos 1
 description: "Parciales de Orientación a Objetos 1"
 tags: ["Objetos", "Uml", "Java", "Test Unit"]
 categories: [Facultad]
+titleIcon: '/notebook.png'
+imageBanner: '/objetos1.webp'
 ---
 
 Bueno, como primer paso, identificamos todos los objetos, sin los metodos. No hace falta crear el objeto sistema. Con sistema se refiere al conjunto completo de objetos. Una forma de darnos cuenta de que hicimos una buena distribución es que podamos ejecutar todos los metodos desde los test.

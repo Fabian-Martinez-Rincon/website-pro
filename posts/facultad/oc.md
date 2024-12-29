@@ -3,6 +3,8 @@ title: Final Organización de Computadoras
 description: "Finales de Organización de Computadoras"
 tags: ["bash", "nvim", "linux", "debian"]
 categories: [Facultad]
+titleIcon: '/notebook.png'
+imageBanner: '/oc-finales.webp'
 ---
 
 <div align='center'><img src='https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDR2ZGR0enZoYXF4cnhwZGc4dGRqN2VrcmdmeG16d2h4cnhjZHlzdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ubLIcHvitTa36/giphy.gif'></div>

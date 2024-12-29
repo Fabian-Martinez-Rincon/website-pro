@@ -3,6 +3,8 @@ title: Parciales Ingenieria de Software 1
 description: "Historias de Usuario y Casos de uso. Tuve que ir todas las practicas y consultas para poder entender con mejor detalle."
 tags: ["bash", "nvim", "linux", "debian"]
 categories: [Facultad]
+titleIcon: '/notebook.png'
+imageBanner: '/hu.webp'
 ---
 
 Podemos extraer todos los datos de nuestro enunciado de la siguiente forma. Tener en cuenta que los roles y actores son los mismos, solo que en HU no tomamos en cuenta el servidor y los actores que surgen por herencia.

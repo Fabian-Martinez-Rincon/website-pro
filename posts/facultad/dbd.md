@@ -3,6 +3,8 @@ title: Parciales DBD
 description: "Parciales de Diseño de Base de Datos"
 tags: ["Modelo Conceptual", "Modelo Logico", "Modelo Fisico"]
 categories: [Facultad]
+imageBanner: '/dbd.webp'
+titleIcon: '/notebook.png'
 ---
 
 

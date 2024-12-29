@@ -4,8 +4,8 @@ author: Fabian Martinez Rincon
 description: "Practica 1, 2 y 3 de Introducción a los Sistemas Operativos"
 tags: ["bash", "nvim", "linux", "debian"]
 categories: [Facultad]
-imageBanner: '/refactoring.webp'
-
+imageBanner: '/shell.webp'
+titleIcon: '/notebook.png'
 ---
 
 <h1 align="center"> 📒 Practica 1

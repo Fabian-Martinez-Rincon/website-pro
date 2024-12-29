@@ -3,6 +3,8 @@ title: Final AYED
 description: "Finales de Algoritmos y Estructura de Datos"
 tags: ["bash", "nvim", "linux", "debian"]
 categories: [Facultad]
+imageBanner: '/ayed.webp'
+titleIcon: '/notebook.png'
 ---
 
 Bueno, por lo que me dijeron este final es full teorico. Aca dejo uno que me pasaron.

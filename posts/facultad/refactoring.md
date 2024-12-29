@@ -4,8 +4,7 @@ description: "Preparando el parcial para el redictado de objetos 2 (raro)."
 tags: ["bash", "nvim", "linux", "debian"]
 categories: [Facultad]
 imageBanner: '/refactoring.webp'
-titleIcon: '/linux.png'
-
+titleIcon: '/notebook.png'
 ---
 
 #### Code Smells

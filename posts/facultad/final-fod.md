@@ -3,6 +3,8 @@ title: Final FOD
 description: "Preguntas para el Final de la materia Fundamentos de Organización de Datos"
 tags: ["bash", "nvim", "linux", "debian"]
 categories: [Facultad]
+titleIcon: '/notebook.png'
+imageBanner: '/fod.webp'
 ---
 
 ## 😎 ESPACIO PUBLICITARIO 😎
