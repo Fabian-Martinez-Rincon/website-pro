@@ -3,7 +3,7 @@ title: Refactoring
 description: "Preparando el parcial para el redictado de objetos 2 (raro)."
 tags: ["bash", "nvim", "linux", "debian"]
 categories: [Facultad]
-imageBanner: '/refactoring.webp'
+imageBanner: '/facultad/refactoring.webp'
 titleIcon: '/notebook.png'
 ---
 

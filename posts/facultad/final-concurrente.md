@@ -3,7 +3,7 @@ title: Final Concurrente
 description: "Tratando de organizar los finales"
 categories: [Facultad]
 titleIcon: '/notebook.png'
-imageBanner: '/finales-programación-concurrente.jpg'
+imageBanner: '/facultad/finales-programación-concurrente.jpg'
 ---
 
 Sea la siguiente solución al problema del producto de matrices de nxn con P

@@ -4,7 +4,7 @@ description: ""
 tags: ["bash", "nvim", "linux", "debian"]
 categories: [Facultad]
 titleIcon: '/notebook.png'
-imageBanner: '/taller.webp'
+imageBanner: '/facultad/taller.webp'
 ---
 
 

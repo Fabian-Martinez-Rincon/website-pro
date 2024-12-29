@@ -4,7 +4,7 @@ description: "Preguntas para el Final de la materia Fundamentos de Organización
 tags: ["bash", "nvim", "linux", "debian"]
 categories: [Facultad]
 titleIcon: '/notebook.png'
-imageBanner: '/fod.webp'
+imageBanner: '/facultad/fod.webp'
 ---
 
 ## 😎 ESPACIO PUBLICITARIO 😎

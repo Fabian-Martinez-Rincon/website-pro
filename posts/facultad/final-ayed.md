@@ -3,7 +3,7 @@ title: Final AYED
 description: "Finales de Algoritmos y Estructura de Datos"
 tags: ["bash", "nvim", "linux", "debian"]
 categories: [Facultad]
-imageBanner: '/ayed.webp'
+imageBanner: '/facultad/ayed.webp'
 titleIcon: '/notebook.png'
 ---
 

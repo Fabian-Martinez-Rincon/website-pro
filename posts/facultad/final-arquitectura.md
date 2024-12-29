@@ -2,7 +2,7 @@
 title: Final AC
 description: "Preguntas Para el Final de Arquitectura de Computadoras"
 categories: [Facultad]
-imageBanner: '/finales-Arquitectura.jpg'
+imageBanner: '/facultad/finales-Arquitectura.jpg'
 titleIcon: '/notebook.png'
 ---
 

@@ -2,7 +2,7 @@
 title: Final DBD
 description: "Material Para el Final de Diseño de Base de Datos"
 categories: [Facultad]
-imageBanner: '/dbd.webp'
+imageBanner: '/facultad/dbd.webp'
 tags: ["Modelado de Datos", "Procesamiento de Consultas", "Seguridad e Integridad de los Datos"]
 titleIcon: '/notebook.png'
 ---
