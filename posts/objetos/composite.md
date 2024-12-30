@@ -1,7 +1,7 @@
 ---
 title: '📦 Composite'
 description: ''
-imageBanner: 'objetos/composite.webp'
+imageBanner: '/objetos/composite.webp'
 tags: ["POO"]
 categories: [Patrones]
 ---

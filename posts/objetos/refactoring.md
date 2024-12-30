@@ -2,7 +2,6 @@
 title: 'TP Refactoring'
 description: ''
 imageBanner: '/objetos/refactoring.webp'
-tags: [""]
 categories: [Patrones]
 ---
 
