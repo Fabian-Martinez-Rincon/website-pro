@@ -4,6 +4,7 @@ description: ''
 tags: ["ACL", "Permisos", "Linux"]
 categories: [Linux]
 titleIcon: '/linux.png'
+imageBanner: '/linux/Fuerza_Bruta.jpg'
 ---
 
 ```bash

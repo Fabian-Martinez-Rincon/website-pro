@@ -4,6 +4,7 @@ description: ''
 tags: ["ACL", "Permisos", "Linux"]
 titleIcon: '/linux.png'
 categories: [Linux]
+imageBanner: '/linux/COMANDOS.jpg'
 ---
 
 - [Find](#find)

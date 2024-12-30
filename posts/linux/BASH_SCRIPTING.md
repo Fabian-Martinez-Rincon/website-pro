@@ -4,6 +4,7 @@ titleIcon: '/linux.png'
 description: ''
 tags: ["ACL", "Permisos", "Linux"]
 categories: [Linux]
+imageBanner: '/linux/BASH_SCRIPTING.jpg'
 ---
 
 El **Bash scripting** es la práctica de escribir scripts (programas) en el shell de Unix/Linux conocido como **Bash** (Bourne Again SHell). Bash es un intérprete de comandos que permite a los usuarios ejecutar comandos del sistema operativo, automatizar tareas, procesar datos y mucho más. A través de Bash scripting, se pueden encadenar múltiples comandos en un archivo de texto y ejecutarlos secuencialmente para realizar tareas complejas de manera eficiente.

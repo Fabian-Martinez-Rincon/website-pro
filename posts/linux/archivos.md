@@ -4,6 +4,7 @@ description: ""
 titleIcon: '/linux.png'
 tags: ["Bash", "Linux", "Comandos"]
 categories: [Linux]
+imageBanner: '/linux/FILESYSTEM.jpg'
 ---
 
 - [Link del tito Savitar](https://hack4u.io/wp-content/uploads/2022/05/bash-redirections-cheat-sheet.pdf)

@@ -4,6 +4,7 @@ description: ''
 tags: ["ACL", "Permisos", "Linux"]
 categories: [Linux]
 titleIcon: '/linux.png'
+imageBanner: '/linux/CRON.jpg'
 ---
 
 **Cron** es una herramienta y servicio de Unix y Linux diseñado para ejecutar tareas programadas automáticamente en horarios específicos. Es una de las herramientas más útiles en administración de sistemas para automatizar tareas repetitivas como respaldos, monitoreo de sistemas y tareas de mantenimiento.

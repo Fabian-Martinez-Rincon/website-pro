@@ -4,6 +4,7 @@ description: ''
 tags: ["ACL", "Permisos", "Linux"]
 categories: [Linux]
 titleIcon: '/linux.png'
+imageBanner: '/linux/NETCAT.jpg'
 ---
 
 - [Material](https://blog.desdelinux.net/usando-netcat-algunos-comandos-practicos/)

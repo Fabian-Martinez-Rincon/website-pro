@@ -4,6 +4,7 @@ description: ''
 tags: ["ACL", "Permisos", "Linux"]
 categories: [Linux]
 titleIcon: '/linux.png'
+imageBanner: '/linux/KITTY.jpg'
 ---
 
 - [Pagina de instalación](https://sw.kovidgoyal.net/kitty/)

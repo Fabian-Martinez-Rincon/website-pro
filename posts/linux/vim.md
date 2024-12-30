@@ -5,6 +5,7 @@ title: 'Instalar NVIM'
 description: ''
 tags: ["linux", "vim", "bash"]
 categories: [Linux]
+imageBanner: '/linux/vim.webp'
 # url: '/posts/vim.jpg'
 #https://docs.astro.build/assets/arc.webp
 ---

@@ -4,6 +4,7 @@ description: ''
 titleIcon: '/linux.png'
 tags: ["ACL", "Permisos", "Linux"]
 categories: [Linux]
+imageBanner: '/linux/Chattr_y_Lsattr.jpg'
 ---
 
 - [RM-RF](https://rm-rf.es/chattr-y-lsattr-visualizar-y-modificar-atributos-en-sistemas-de-ficheros-linux/#:~:text=El%20primer%20comando%2C%20lsattr%20permite,chmod%2C%20chown%2Csetfacl%E2%80%A6)

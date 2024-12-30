@@ -4,6 +4,7 @@ description: ''
 tags: ["ACL", "Permisos", "Linux"]
 categories: [Linux]
 titleIcon: '/linux.png'
+imageBanner: '/linux/coneccionesSSH.jpg'
 ---
 
 ### Conexiones SSH (Secure Shell)
