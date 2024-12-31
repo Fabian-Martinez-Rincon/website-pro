@@ -17,42 +17,42 @@ export default [
         link: 'https://github.com/Fabian-Martinez-Rincon/Char-IT',
         avatar: '../src/assets/github.webp',
         descr: 'Flask, PostgrestSQL, Python, Tailwind, HTML',
-        siteshot: '../src/assets/proyectos/hopetrade.webp'
+        siteshot: './proyectos/hopetrade.webp'
       },
       {
         name: 'Emuti',
         link: 'https://github.com/Fabian-Martinez-Rincon/EmuTi',
         avatar: './src/assets/github.webp',
         descr: 'Python, Pandas, PyGetWindow, OpenPyXL, PyAutoGUI y Tkinter',
-        siteshot: '../src/assets/proyectos/emuti.gif'
+        siteshot: './proyectos/emuti.gif'
       },
       {
         name: 'ACL Manager',
         link: 'https://github.com/Fabian-Martinez-Rincon/acl-manager',
         avatar: './src/assets/github.webp',
         descr: 'Python, Pandas, Excel, Tkinter y OpenPyXL',
-        siteshot: '../src/assets/proyectos/ACL_Manager.gif'
+        siteshot: './proyectos/ACL_Manager.gif'
       },
       {
         name: 'MidFlash',
         link: 'https://github.com/Fabian-Martinez-Rincon/MidFlash',
         avatar: './src/assets/github.webp',
         descr: 'Python, Selenium y Pyautogui',
-        siteshot: '../src/assets/proyectos/midflash.gif'
+        siteshot: './proyectos/midflash.gif'
       },
       {
         name: 'Scraping Pluto TV',
         link: 'https://github.com/Fabian-Martinez-Rincon/Scraping_PLUTO_TV',
         avatar: './src/assets/github.webp',
         descr: 'Python, Selenium, aiohttp, asyncio, BeautifulSoup y requests',
-        siteshot: '../src/assets/proyectos/pluto.gif'
+        siteshot: './proyectos/pluto.gif'
       },
       {
         name: 'SQL Modify',
         link: 'https://github.com/Fabian-Martinez-Rincon/modify-SQL',
         avatar: './src/assets/github.webp',
         descr: 'Python, Difflib, Pandas, OS y XlsxWriter',
-        siteshot: '../src/assets/proyectos/sql.gif'
+        siteshot: './proyectos/sql.gif'
       },
     ]
   },
@@ -66,98 +66,98 @@ export default [
         link: 'https://github.com/Fabian-Martinez-Rincon/EI-Materias',
         avatar: '/favicon.svg',
         descr: 'HTML, Css, GithubPages',
-        siteshot: '../src/assets/proyectos/eiMaterias.png'
+        siteshot: './proyectos/eiMaterias.png'
       },
       {
         name: "Eficiencia X",
         link: 'https://github.com/Fabian-Martinez-Rincon/Efficiency_X',
         avatar: '/favicon.svg',
         descr: 'HTML, Css, Javascript, Regex, GithubPages',
-        siteshot: '../src/assets/proyectos/eficiencia_x.webp'
+        siteshot: './proyectos/eficiencia_x.webp'
       },
       {
         name: "Fablog",
         link: 'https://github.com/Fabian-Martinez-Rincon/Fablog',
         avatar: '/favicon.svg',
         descr: 'Astro, Tailwind, Markdown, JavaScript',
-        siteshot: '../src/assets/proyectos/fablog.webp'
+        siteshot: './proyectos/fablog.webp'
       },
       {
         name: "Gallerix",
         link: 'https://github.com/Fabian-Martinez-Rincon/Galleriix-Frontend',
         avatar: '/favicon.svg',
         descr: 'Astro, TypeScript, Css y JavaScript',
-        siteshot: '../src/assets/proyectos/gallerix.webp'
+        siteshot: './proyectos/gallerix.webp'
       },
       {
         name: "Linktree",
         link: 'https://github.com/Fabian-Martinez-Rincon/Linktree',
         avatar: '/favicon.svg',
         descr: 'Astro, Tailwind, TypeScript, JavaScript',
-        siteshot: '../src/assets/proyectos/linktree.webp'
+        siteshot: './proyectos/linktree.webp'
       },
       {
         name: "Mega Conversor OC",
         link: 'https://github.com/Fabian-Martinez-Rincon/Mega-Conversor-OC/releases',
         avatar: '/favicon.svg',
         descr: 'Html, Css, Javascript y GithubPages',
-        siteshot: '../src/assets/proyectos/megaconversor.webp'
+        siteshot: './proyectos/megaconversor.webp'
       },
       {
         name: "Nomadiix",
         link: 'https://github.com/Fabian-Martinez-Rincon/Nomadiix-Website',
         avatar: '/favicon.svg',
         descr: 'Astro, Tailwind, TypeScript, JavaScript',
-        siteshot: '../src/assets/proyectos/nomadiix.webp'
+        siteshot: './proyectos/nomadiix.webp'
       },
       {
         name: "Old Portfolio",
         link: 'https://github.com/Fabian-Martinez-Rincon/Old_Portfolio',
         avatar: '/favicon.svg',
         descr: 'Html, Css, Javascript y GithubPages',
-        siteshot: '../src/assets/proyectos/oldPortfolio.webp'
+        siteshot: './proyectos/oldPortfolio.webp'
       },
       {
         name: "Portfolio Old",
         link: 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon-old',
         avatar: '/favicon.svg',
         descr: 'React, Css, Javascript y GithubPages',
-        siteshot: '../src/assets/proyectos/portfolioOld.webp'
+        siteshot: './proyectos/portfolioOld.webp'
       },
       {
         name: "Space Apps",
         link: 'https://github.com/Cuestion-de-Espacio',
         avatar: '/favicon.svg',
         descr: 'Html, Css y JavaScript',
-        siteshot: '../src/assets/proyectos/spaceApps.webp'
+        siteshot: './proyectos/spaceApps.webp'
       },
       {
         name: "Converter OC",
         link: 'https://github.com/Fabian-Martinez-Rincon/Converter-OC',
         avatar: '/favicon.svg',
         descr: 'Pascal',
-        siteshot: '../src/assets/proyectos/converter-oc.webp'
+        siteshot: './proyectos/converter-oc.webp'
       },
       {
         name: "Keypad ⌨️",
         link: 'https://github.com/Fabian-Martinez-Rincon/Keypad',
         avatar: '/favicon.svg',
         descr: 'Arduino, C++ y Proteus',
-        siteshot: '../src/assets/proyectos/keypad.webp'
+        siteshot: './proyectos/keypad.webp'
       },
       {
         name: "Lock",
         link: 'https://github.com/Fabian-Martinez-Rincon/Lock',
         avatar: '/favicon.svg',
         descr: 'Arduino, C++ y Proteus',
-        siteshot: '../src/assets/proyectos/lock.webp'
+        siteshot: './proyectos/lock.webp'
       },
       {
         name: "Transform Pokemon Resolution",
         link: 'https://github.com/Fabian-Martinez-Rincon/Transform-Pokemon-Resolution',
         avatar: '/favicon.svg',
         descr: 'Python y Google Colab',
-        siteshot: '../src/assets/proyectos/transform-pokemon.webp'
+        siteshot: './proyectos/transform-pokemon.webp'
       },
     ]
   },
