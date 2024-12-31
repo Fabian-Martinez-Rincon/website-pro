@@ -15,42 +15,42 @@ export default [
       {
         name: 'Char IT',
         link: 'https://github.com/Fabian-Martinez-Rincon/Char-IT',
-        avatar: '../src/assets/github.webp',
+        avatar: './github.webp',
         descr: 'Flask, PostgrestSQL, Python, Tailwind, HTML',
         siteshot: './proyectos/hopetrade.webp'
       },
       {
         name: 'Emuti',
         link: 'https://github.com/Fabian-Martinez-Rincon/EmuTi',
-        avatar: './src/assets/github.webp',
+        avatar: './github.webp',
         descr: 'Python, Pandas, PyGetWindow, OpenPyXL, PyAutoGUI y Tkinter',
         siteshot: './proyectos/emuti.gif'
       },
       {
         name: 'ACL Manager',
         link: 'https://github.com/Fabian-Martinez-Rincon/acl-manager',
-        avatar: './src/assets/github.webp',
+        avatar: './github.webp',
         descr: 'Python, Pandas, Excel, Tkinter y OpenPyXL',
         siteshot: './proyectos/ACL_Manager.gif'
       },
       {
         name: 'MidFlash',
         link: 'https://github.com/Fabian-Martinez-Rincon/MidFlash',
-        avatar: './src/assets/github.webp',
+        avatar: './github.webp',
         descr: 'Python, Selenium y Pyautogui',
         siteshot: './proyectos/midflash.gif'
       },
       {
         name: 'Scraping Pluto TV',
         link: 'https://github.com/Fabian-Martinez-Rincon/Scraping_PLUTO_TV',
-        avatar: './src/assets/github.webp',
+        avatar: './github.webp',
         descr: 'Python, Selenium, aiohttp, asyncio, BeautifulSoup y requests',
         siteshot: './proyectos/pluto.gif'
       },
       {
         name: 'SQL Modify',
         link: 'https://github.com/Fabian-Martinez-Rincon/modify-SQL',
-        avatar: './src/assets/github.webp',
+        avatar: './github.webp',
         descr: 'Python, Difflib, Pandas, OS y XlsxWriter',
         siteshot: './proyectos/sql.gif'
       },
