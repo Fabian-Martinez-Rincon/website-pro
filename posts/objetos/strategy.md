@@ -1,8 +1,9 @@
 ---
+titleIcon: '/coffee.png'
 title: '🔑 Strategy'
 description: ''
 imageBanner: '/objetos/strategy.webp'
-tags: ["POO"]
+tags: ["POO", "Strategy"]
 categories: [Patrones]
 ---
 

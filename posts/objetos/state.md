@@ -1,8 +1,9 @@
 ---
+titleIcon: '/coffee.png'
 title: '🗽 State'
 description: ''
 imageBanner: '/objetos/state.webp'
-tags: ["POO"]
+tags: ["POO", "State"]
 categories: [Patrones]
 ---
 

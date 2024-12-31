@@ -6,6 +6,7 @@ description: ''
 tags: ["linux", "vim", "bash"]
 categories: [Linux]
 imageBanner: '/linux/vim.webp'
+top: 1
 # url: '/posts/vim.jpg'
 #https://docs.astro.build/assets/arc.webp
 ---

@@ -1,8 +1,9 @@
 ---
+titleIcon: '/coffee.png'
 title: 'Parciales'
 description: ''
 imageBanner: '/objetos/composite.webp'
-tags: ["POO"]
+tags: ["POO", "Parciales"]
 categories: [Patrones]
 ---
 

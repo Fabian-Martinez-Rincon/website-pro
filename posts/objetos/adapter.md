@@ -1,9 +1,11 @@
 ---
+titleIcon: '/coffee.png'
 title: '🔌 Adapter'
 description: ''
 imageBanner: '/objetos/adapter.webp'
-tags: ["POO"]
+tags: ["POO", "Adapter"]
 categories: [Patrones]
+top: 2
 ---
 
 ## Ejemplo Practico

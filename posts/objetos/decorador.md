@@ -1,8 +1,9 @@
 ---
+titleIcon: '/coffee.png'
 title: '🎁 Decorator'
 description: ''
 imageBanner: '/objetos/decorator.webp'
-tags: ["POO"]
+tags: ["POO", "Decorador"]
 categories: [Patrones]
 ---
 

@@ -1,8 +1,8 @@
-const FAVICON = '/favicon.svg'
+const FAVICON = '/f.svg'
 const BASE_URL = 'https://antares.coderxi.com'
 const SITE_INFO = {
-  title: 'Fabian Martinez Rincon',
-  author: 'Data Engineer',
+  title: 'El Rincon del Fabo',
+  author: 'Fabian Martinez Rincon',
   language: 'es-ES',
   description: 'A blog template based on Astro',
   startYear: 2024,
@@ -26,7 +26,7 @@ const DEFAULT_FRONTMATTER = {
 }
 const SIDEBAR_SETTINGS = {
   name: "Fabian Martinez Rincon",
-  avatar: '/favicon.svg',
+  avatar: '/f.svg',
 }
 const ASIDE_CARDS = {
   info: {

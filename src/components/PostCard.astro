@@ -11,8 +11,9 @@ interface Props {
 }
 const { post } = Astro.props;
 
-// Asegurar que la imagen está configurada correctamente
+// Asegurar que las imágenes están configuradas correctamente
 const postImage = ensurePostImage(post.data.imageBanner);
+const topImage = post.data.topImage; // Tomar la imagen del top si está definida
 ---
 
 <style>
@@ -21,10 +22,12 @@ const postImage = ensurePostImage(post.data.imageBanner);
   }
 </style>
 
-<div class="card p4 pos-relative overflow-hidden flex items-start"> <!-- Reducir padding general -->
-  <div class="flex-1"> <!-- Contenido principal -->
+<div class="card p4 pos-relative overflow-hidden flex items-start">
+  <!-- Contenido principal -->
+  <div class="flex-1">
+    <!-- Insignia de top o password -->
     <If condition={post.data.top || post.data.password}>
-      <div class="text-xl pos-absolute top-1 -right-5 rotate-45 b bg-gray-1 shadow-md py-0.5 dark:bg-dark-4 dark:b-dark-1 flex w20 justify-center color-#aaa">
+      <div class="text-xl pos-absolute top-1 -right-5 rotate-45 b bg-gray-1 shadow-md py-0.5 dark:bg-dark-4 dark:b-dark-1 flex w20 justify-center color-#aaa z-20">
         <If condition={post.data.top}><Icon class="color-#ff7242" name="mdi:pin" /></If>
         <If condition={post.data.password}><Icon class="text-lg" name="mdi:lock" /></If>
       </div>
@@ -38,8 +41,8 @@ const postImage = ensurePostImage(post.data.imageBanner);
       <span class="gc-text w-0.5em opacity-0 group-hover:opacity-100">」</span>
     </h1>
 
-    <!-- Agrupamos descripción y metadatos -->
-    <div class=""> <!-- Espaciado interno reducido -->
+    <!-- Descripción y metadatos -->
+    <div>
       <PostMeta post={post} />
       <If condition={!post.data.password && post.data.description}>
         <div class="text-xs my1"><Markdown render set:html={post.data.description} /></div>
@@ -49,21 +52,39 @@ const postImage = ensurePostImage(post.data.imageBanner);
       </If>
     </div>
 
+    <!-- Tags -->
     <div class="font-mono mt-2">
       <slot name="tag-start"></slot>
-      {post.data.tags?.map(tag => (<a class="btn-sm mr0.5" href={'/tags/' + tag}>{tag}</a>))}
+      {post.data.tags?.map(tag => (
+        <a 
+          class="inline-block text-green-400 hover:scale-105 active:scale-95 transition transform duration-200 
+                 shadow-[0_0_2px_rgba(0,255,0,0.8)] hover:shadow-[0_0_5px_rgba(0,255,0,1)] 
+                 font-mono border border-green-400 rounded px-1 py-0.5 mr-1 text-xs"
+          href={'/tags/' + tag}>
+          {tag}
+        </a>
+      ))}
     </div>
   </div>
 
-  <!-- Imagen a la derecha -->
+  <!-- Imagen del top -->
+  <If condition={topImage}>
+    <img 
+      src={topImage} 
+      alt="Top Image" 
+      class="absolute top-0 right-0 w-[20%] h-full object-cover z-20"
+    />
+  </If>
+
+  <!-- Imagen del banner -->
   <img 
     src={postImage.light} 
     alt={post.data.title} 
-    class="absolute top-0 right-0 w-[15%] h-full object-cover clip-diagonal dark:hidden"
+    class="absolute top-0 right-0 w-[15%] h-full object-cover dark:hidden z-10"
   />
   <img 
     src={postImage.dark} 
     alt={post.data.title} 
-    class="absolute top-0 right-0 w-[15%] h-full object-cover clip-diagonal hidden dark:block"
+    class="absolute top-0 right-0 w-[15%] h-full object-cover hidden dark:block z-10"
   />
 </div>

@@ -1,8 +1,9 @@
 ---
+titleIcon: '/coffee.png'
 title: '📡 Proxy'
 description: ''
 imageBanner: '/objetos/proxy.webp'
-tags: ["POO"]
+tags: ["POO", "Proxy"]
 categories: [Patrones]
 ---
 

@@ -1,4 +1,5 @@
 ---
+titleIcon: '/coffee.png'
 title: 'TP Refactoring'
 description: ''
 imageBanner: '/objetos/refactoring.webp'

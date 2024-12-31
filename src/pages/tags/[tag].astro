@@ -19,7 +19,7 @@ const { tag } = Astro.params;
 const { posts } = Astro.props;
 ---
 
-<PageLayout title={`标签 - ${tag}`} titleIcon="mdi:tag" asideCards={['CardRecentPost','CardCategroies','CardTagCloud']}>
+<PageLayout title={`Etiqueta - ${tag}`} titleIcon="mdi:tag" asideCards={['CardRecentPost','CardCategroies','CardTagCloud']}>
 
   <PostListSimple posts={posts}/>
 

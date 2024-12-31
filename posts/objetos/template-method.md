@@ -1,8 +1,9 @@
 ---
+titleIcon: '/coffee.png'
 title: '📃TemplateMethod'
 description: ''
 imageBanner: '/objetos/template-method.webp'
-tags: ["POO"]
+tags: ["POO", "TemplateMethod"]
 categories: [Patrones]
 ---
 

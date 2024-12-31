@@ -1,8 +1,9 @@
 ---
+titleIcon: '/coffee.png'
 title: '📦 Composite'
 description: ''
 imageBanner: '/objetos/composite.webp'
-tags: ["POO"]
+tags: ["POO", "Composite"]
 categories: [Patrones]
 ---
 
